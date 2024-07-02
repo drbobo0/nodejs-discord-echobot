@@ -15,7 +15,7 @@ let messagePosted = {}
 let loading = true
 
 try {
-  settings = require('../settings.json')
+  settings = require('./settings.json')
 } catch (e) {
   console.log(`a settings.json file has not been generated. ${e.stack}`)
   process.exit()
